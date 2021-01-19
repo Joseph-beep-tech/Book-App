@@ -66,7 +66,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Category"
-                        android:id="@+id/aa_categorie"/>
+                        android:id="@+id/aa_kategori"/>
 
 
                     <TextView
@@ -87,7 +87,7 @@
                         android:layout_height="wrap_content"
                         android:text="Studio"
                         android:layout_marginTop="5dp"
-                        android:id="@+id/aa_studio"/>
+                        android:id="@+id/aa_publisher"/>
 
 
 
