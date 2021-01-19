@@ -46,10 +46,10 @@ public class BookActivity extends Activity {
         // setting values to each view
 
         tv_name.setText(name);
-        tv_kategori.setText(kategori);
+        tv_kategori.setText(category);
         tv_description.setText(description);
         tv_rating.setText(rating);
-        tv_publisher.setText(publisher);
+        tv_publisher.setText(studio);
 
         collapsingToolbarLayout.setTitle(name);
 
