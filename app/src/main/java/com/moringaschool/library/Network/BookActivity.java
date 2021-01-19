@@ -36,7 +36,7 @@ public class BookActivity extends Activity {
         CollapsingToolbarLayout collapsingToolbarLayout = findViewById(R.id.collapsingtoolbar_id);
         collapsingToolbarLayout.setTitleEnabled(true);
 
-        TextView tv_name = findViewById(R.id.aa_anime_name);
+        TextView tv_name = findViewById(R.id.aa_book_name);
         TextView tv_publisher = findViewById(R.id.aa_publisher);
         TextView tv_kategori = findViewById(R.id.aa_kategori) ;
         TextView tv_description = findViewById(R.id.aa_description);
@@ -57,7 +57,7 @@ public class BookActivity extends Activity {
         RequestOptions requestOptions = new RequestOptions().centerCrop().placeholder(R.drawable.loading_shape).error(R.drawable.loading_shape);
 
 
-        // set image using Glide
+        // setting images using Glide
         Glide.with(this).load(image_url).apply(requestOptions).into(img);
 
 

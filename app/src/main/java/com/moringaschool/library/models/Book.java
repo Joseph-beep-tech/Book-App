@@ -79,4 +79,7 @@ public class Book {
     public void setImage_url(String image_url) {
         this.image_url = image_url;
     }
+
+    public void add(Book book) {
+    }
 }
